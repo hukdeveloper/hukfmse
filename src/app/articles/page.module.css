@@ -1,0 +1,91 @@
+.container {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  gap: 10px;
+}
+.container section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container section h1 {
+  color: rgb(105, 101, 101);
+  font-size: 35px;
+}
+.container section table {
+  margin-top: 10px;
+  width: 70%;
+  align-self: center;
+  border-spacing: 10px;
+  background-color: rgb(175, 169, 169);
+}
+.container section table tr {
+  border-spacing: 20px;
+}
+.headings {
+  width: 140px;
+  display: flex;
+}
+.subHeadings {
+  text-align: start;
+}
+.container section h2 {
+  text-align: start;
+}
+.desc {
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.desc p {
+  text-align: justify;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: justify;
+}
+.list ul {
+  margin-left: 20px;
+}
+.container section h3 {
+  text-align: start;
+  font-size: 18px;
+  padding: 10px 0;
+}
+.conclusion {
+  line-height: 1.5;
+  text-align: justify;
+}
+@media (max-width: 660px) {
+  .container section table {
+    width: 90%;
+  }
+}
+@media (max-width: 468px) {
+  .container section table {
+    width: 100%;
+    padding: 0;
+  }
+  .headings {
+    width: 100px;
+  }
+  .container {
+    padding: 0 10px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 310px) {
+  .container {
+    padding: 0 10px;
+    font-size: 12px;
+  }
+  .headings {
+    width: 95px;
+  }
+}

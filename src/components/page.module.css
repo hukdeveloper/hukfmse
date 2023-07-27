@@ -8,6 +8,8 @@
   align-items: center;
   padding: 0 20px;
   font-size: 18px;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 .header_name {
   font-weight: bold;
@@ -44,9 +46,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: auto;
 }
 .footer a {
   text-decoration: underline;
   margin-left: 5px;
   font-weight: bold;
+}
+@media (max-width: 380px) {
+  .header_menu {
+    gap: 15px;
+    font-size: 14px;
+  }
 }
