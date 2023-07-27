@@ -550,15 +550,15 @@ export default function Article() {
               four-step process that involves.
             </li>
             <li>
-              <b>Assessment : </b>The first step is to assess the learner
-              &apos;'s knowledge and skills. This can be done through a variety
-              of methods, such as quizzes, exams, and surveys.
+              <b>Assessment : </b>The first step is to assess the learners
+              knowledge and skills. This can be done through a variety of
+              methods, such as quizzes, exams, and surveys.
             </li>
             <li>
-              <b>Diagnosis : </b>The third step is to diagnose the learner &apos
-              s learning difficulties. This can be done by analyzing the learner
-              &apos;s performance on assessments and by providing feedback to
-              the learner.
+              <b>Diagnosis : </b>The third step is to diagnose the learners
+              learning difficulties. This can be done by analyzing the learners
+              performance on assessments and by providing feedback to the
+              learner.
             </li>
             <li>
               <b>Remediation : </b>The fourth step is to provide remediation to
@@ -567,9 +567,9 @@ export default function Article() {
             </li>
             <li>
               <b>Instruction : </b>The second step is to provide instruction
-              that is tailored to the learner &apos;s needs. This can be done
-              through a variety of methods, such as online courses, video
-              tutorials, and one-on-one tutoring.
+              that is tailored to the learners needs. This can be done through a
+              variety of methods, such as online courses, video tutorials, and
+              one-on-one tutoring.
             </li>
 
             <li>
