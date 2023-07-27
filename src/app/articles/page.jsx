@@ -551,7 +551,7 @@ export default function Article() {
             </li>
             <li>
               <b>Assessment : </b>The first step is to assess the learner
-              &apos;s knowledge and skills. This can be done through a variety
+              &apos;'s knowledge and skills. This can be done through a variety
               of methods, such as quizzes, exams, and surveys.
             </li>
             <li>
