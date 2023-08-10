@@ -27,3 +27,11 @@
 .details p {
   padding: 5px 0;
 }
+
+.student {
+  padding: 10px !important;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

@@ -5,234 +5,213 @@ export default function Project() {
   return (
     <div className={styles.container}>
       <h2>Task : OHT-II</h2>
+      <div className={styles.student}>
+        <span>2020-KIU-BS2080</span>
+        <span>Kashif Akhter</span>
+      </div>
+
       <section>
-        <h4>Topic; -</h4>
-        <br />
-        <span>Dear Students,</span>
+        <span>
+          <b>Assignment scenario:</b>
+        </span>
         <p>
-          Hope all of you are doing well. I believe on you that you have learned
-          a lot during this course. Now this is time to check the learning
-          outcomes of the course “Formal Methods in Software Engineering”.
-          Please write a brief summary of learning outcomes. In your summary,
-          encompass the overarching objective of the Formal Methods in Software
-          Engineering course, while highlighting the specific outcomes that you
-          have achieved upon successful completion. This summary should convey
-          the course's aim to instill formal methods proficiency,
-          problem-solving skills, verification capabilities, effective
-          communication, risk mitigation, practical application, and a mindset
-          of continuous improvement. Emphasize the holistic benefits, including
-          critical thinking enhancement and preparation for further academic
-          pursuits.
-          <br /> Note! Post your task on your publicly available source and
-          provide a link on your LMS forum. <br />
-          <br />
-          Wish you the best of luck
-          <br />
-          <b>Asif Hussain </b>
-          <br />
-          <span>asifburkhia@gmail.com</span>
+          learning outcomes of the course “Formal Methods in Software
+          Engineering”.
         </p>
       </section>
       <div className={styles.details}>
         <p>
-          The overarching objective of the Formal Methods in Software
-          Engineering course is to instill in students the knowledge and skills
-          necessary to use formal methods to improve the quality, reliability,
-          and safety of software systems.
+          The course Formal Methods in Software Engineering aims to equip with
+          the knowledge and skills to apply formal methods in the design,
+          development, and verification of software systems. Formal methods are
+          rigorous mathematical techniques that can help ensure the correctness,
+          reliability, and security of software. <br />
+          <br />
+          The overarching objective of the "Formal Methods in Software
+          Engineering" course was to equip with a comprehensive skill set that
+          goes beyond technical knowledge, encompassing formal methods
+          proficiency, problem-solving skills, verification capabilities,
+          effective communication, risk mitigation, and fostering a mindset of
+          continuous improvement. This holistic approach aimed to prepare
+          students not only for successful software development but also for
+          broader critical thinking enhancement and further academic endeavors.
+        </p>
+
+        <p>Throughout the course, I engaged with various topics:</p>
+
+        <p>
+          <b>
+            <u>Z Notation:</u>
+          </b>
+          <br />I delved into the Z notation, a formal specification language
+          that facilitated precise representation of system requirements,
+          fostering clarity and accuracy in software development.
+        </p>
+        <p>
+          <b>
+            <u>Z Notation:</u>
+          </b>
+          <br />I delved into the Z notation, a formal specification language
+          that facilitated precise representation of system requirements,
+          fostering clarity and accuracy in software development.
         </p>
 
         <p>
           <b>
-            Specifically, upon successful completion of the course, students
-            will be able to:
+            <u>Data Flow Diagrams:</u>
           </b>
+          <br />I explored data flow diagrams, graphical tools that aided in
+          visualizing data movement within a system, enhancing my ability to
+          comprehend system dynamics.
         </p>
-        <ul>
-          <li>
-            Describe the principles of formal methods and their applications in
-            software engineering.
-          </li>
-          <li>
-            Use formal notations to specify the behavior of software systems.
-          </li>
-          <li>
-            Verify the correctness of software systems using formal methods.
-          </li>
-          <li>
-            Communicate effectively about formal methods with other engineers
-            and stakeholders.
-          </li>
-          <li>
-            Mitigate risks associated with software development using formal
-            methods.
-          </li>
-          <li>Apply formal methods to real-world software systems.</li>
-          <li>
-            Continuously improve their skills and knowledge in formal methods.
-          </li>
-        </ul>
 
-        {/* In Addition to....... */}
         <p>
           <b>
-            In addition to these specific outcomes, the course also aims to
-            provide students with the following holistic benefits:
+            <u>Taking Informal Requirements:</u>
           </b>
+          <br />
+          The course provided insights into the art of extracting and managing
+          informal requirements, essential for bridging the gap between client
+          expectations and formal specifications.
         </p>
-        <ul>
-          <li>Enhanced critical thinking skills.</li>
-          <li>
-            Preparation for further academic pursuits in software engineering
-            and related fields.
-          </li>
-          <li>
-            A deeper understanding of the underlying principles of software
-            engineering.
-          </li>
-          <li>
-            A greater appreciation for the importance of quality, reliability,
-            and safety in software development.
-          </li>
-        </ul>
 
-        {/* We have learned...... */}
         <p>
-          <b>We have learned the following topics in the course:</b>
+          <b>
+            <u>Formal Methods and Project Management:</u>
+          </b>
+          <br />I understood the symbiotic relationship between formal methods
+          and project management, realizing their joint contribution to
+          enhancing software quality and project success.
         </p>
-        <ul>
-          <li>
-            <b>Formal methods and Project management:</b>
-            <p>
-              Formal methods are a set of mathematical techniques used to
-              specify, analyze, and verify the correctness of software systems.
-              Project management is the process of planning, organizing, and
-              managing resources to achieve specific goals. The main difference
-              between formal methods and project management is that formal
-              methods focus on the correctness of the software system, while
-              project management focuses on the delivery of the software system
-              on time and within budget.
-            </p>
-          </li>
-          <li>
-            <b>Set theory: </b>
-            <p>
-              Set theory is a branch of mathematics that deals with sets, which
-              are collections of objects. Set theory is used in formal methods
-              to define the syntax and semantics of formal languages.
-            </p>
-          </li>
-          <li>
-            <b>Z Language and Z Notations:</b>
-            <p>
-              Z is a formal language used to specify the behavior of software
-              systems. Z is based on set theory and predicate logic. Z notations
-              are the symbols and syntax used to write Z specifications.
-            </p>
-          </li>
-          <li>
-            <b>State transition diagram and flow chart:</b>
-            <p>
-              State transition diagrams and flowcharts are graphical notations
-              used to model the behavior of software systems. State transition
-              diagrams model the dynamic behavior of a system, while flowcharts
-              model the logical flow of a process.
-            </p>
-          </li>
-          <li>
-            <b>Data Flow Diagram and how to implement it: </b>
-            <p>
-              Data flow diagrams are graphical notations used to model the flow
-              of data through a system. Data flow diagrams can be used to
-              implement a system by identifying the data flows and the processes
-              that transform the data.
-            </p>
-          </li>
-          <li>
-            <b>Entity relationship diagram:</b>
-            <p>
-              Entity relationship diagrams are graphical notations used to model
-              the data in a database. Entity relationship diagrams identify the
-              entities in a database and the relationships between entities.
-            </p>
-          </li>
-          <li>
-            <b>Sets and Logics:</b>
-            <p>
-              Sets and logics are the mathematical foundations of formal
-              methods. Sets are used to define the syntax of formal languages,
-              while logics are used to define the semantics of formal languages.
-            </p>
-          </li>
-          <li>
-            <b>Schema, expression and predicates:</b>
-            <p>
-              Schemas are used to define the structure of data in a database.
-              Expressions are used to manipulate data in a database. Predicates
-              are used to make assertions about data in a database.
-            </p>
-          </li>
-        </ul>
+        <p>
+          <b>
+            <u>State Transition Diagrams: </u>
+          </b>
+          <br />I learned to create state transition diagrams, which helped
+          model and analyze the behavior of systems with distinct states and
+          transitions between them.
+        </p>
 
-        {/* We have achieved....... */}
         <p>
-          <b>We have achieved the following learning outcomes:</b>
+          <b>
+            <u>Formal Methods in Software Engineering:</u>
+          </b>
+          <br />
+          The course underscored the significance of formal methods in ensuring
+          system correctness, reliability, and minimizing errors during the
+          development lifecycle.
         </p>
-        <ul>
-          <li>
-            We have learned the principles of formal methods and their
-            applications in software engineering.
-          </li>
-          <li>
-            We are proficient in using formal notations, including set theory, Z
-            language, state transition diagrams, flowcharts, data flow diagrams,
-            entity relationship diagrams, sets and logics, schemas, expressions
-            and predicates.
-          </li>
-          <li>
-            We can verify the correctness of software systems using formal
-            methods.
-          </li>
-          <li>
-            We can communicate effectively about formal methods with other
-            engineers and stakeholders
-          </li>
-          <li>
-            We can mitigate risks associated with software development using
-            formal methods.
-          </li>
-          <li>
-            We have applied formal methods to real-world software systems.
-          </li>
-          <li>
-            We are committed to continuous improvement in your skills and
-            knowledge in formal methods.
-          </li>
-        </ul>
 
-        {/* We have also achieved....... */}
         <p>
-          <b>We have also achieved the following holistic benefits:</b>
+          <b>
+            <u>Logic in Z Notation:</u>
+          </b>
+          <br />I acquired the skills to apply logical reasoning within the Z
+          notation framework, a crucial aspect for building consistent and
+          well-structured specifications.
         </p>
-        <ul>
-          <li>Our critical thinking skills have been enhanced.</li>
-          <li>
-            We are prepared for further academic pursuits in software
-            engineering and related fields.
-          </li>
-          <li>
-            We have a deeper understanding of the underlying principles of
-            software engineering.
-          </li>
-          <li>
-            We have a greater appreciation for the importance of quality,
-            reliability, and safety in software development.
-          </li>
-        </ul>
+
+        <p>
+          <b>
+            <u>Rationale for Using Formal Methods:</u>
+          </b>
+          <br />I comprehended the reasons behind employing formal methods,
+          recognizing their role in reducing ambiguity, enhancing system rigor,
+          and facilitating effective communication.
+        </p>
+
+        <p>
+          <b>
+            <u>Sets in Z Notation:</u>
+          </b>
+          <br />I learned to utilize sets within Z notation, enabling precise
+          representation of collections of data and system components.
+        </p>
+
+        <p>
+          <b>
+            <u>Expressions in Z Notation:</u>
+          </b>
+          <br />
+          The course covered expressions in Z notation, enhancing my ability to
+          define complex relationships and behaviors within formal
+          specifications.
+        </p>
+
+        <p>
+          <b>
+            <u>Schemas in Z Notation:</u>
+          </b>
+          <br />I grasped the concept of schemas in Z notation, which provided a
+          systematic way to describe system components and their interactions.
+        </p>
+
         <br />
         <p>
-          We are confident that the knowledge and skills you have gained in this
-          course will make you a more valuable engineer and will help you to
-          make a positive impact on the software industry.
+          <b>The specific outcomes I achieved upon successfully</b>{" "}
+        </p>
+        <br />
+
+        <p>
+          <b>
+            <u>Enhanced Problem-Solving Skills:</u>
+          </b>
+          <br />
+          The course honed my problem-solving skills as I learned to dissect
+          complex software challenges, devise structured solutions, and navigate
+          intricate requirements.
+        </p>
+
+        <p>
+          <b>
+            <u>Verification Capability: </u>
+          </b>
+          <br />I acquired the skill to rigorously verify software against
+          formal specifications, ensuring alignment with desired outcomes.
+        </p>
+
+        <p>
+          <b>
+            <u>Proficiency in Formal Methods:</u>
+          </b>
+          <br />I gained the ability to effectively employ formal methods to
+          analyze, design, and verify software systems, contributing to their
+          correctness and reliability.
+        </p>
+
+        <p>
+          <b>
+            <u>Effective Communication:</u>
+          </b>
+          <br />
+          The course nurtured my communication skills, enabling me to convey
+          intricate technical concepts to both technical and non-technical
+          stakeholders clearly and coherently.
+        </p>
+
+        <p>
+          <b>
+            <u>Risk Mitigation:</u>
+          </b>
+          <br />I learned strategies for identifying and mitigating risks in
+          software development, ensuring that potential issues were addressed
+          proactively.
+        </p>
+
+        <p>
+          <b>
+            <u>Mindset of Continuous Improvement: </u>
+          </b>
+          <br />
+          The course cultivated a mindset of continual growth, encouraging me to
+          seek innovative solutions, refine processes, and adapt to evolving
+          software engineering practices.
+        </p>
+        <br />
+        <p>
+          <b>As a result, </b>I am well-prepared to pursue further academic
+          endeavors and contribute meaningfully to the field of software
+          engineering.
         </p>
       </div>
     </div>
