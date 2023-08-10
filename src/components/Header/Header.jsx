@@ -11,7 +11,7 @@ export default function Header() {
 
       <div className={styles.header_menu}>
         <Link href="/articles">Articles</Link>
-        <Link href="/project">Project</Link>
+        <Link href="/task">Task</Link>
         <Link href="/about">About</Link>
       </div>
     </div>
