@@ -7,7 +7,7 @@
   gap: 10px;
 }
 .container h2 {
-  border-bottom: 2px solid #000;
+  /* border-bottom: 2px solid #000; */
   padding: 5px 0;
 }
 .student {
@@ -18,7 +18,7 @@
   padding: 10px 0;
   font-weight: bold;
   color: rgb(72, 70, 70);
-  border-bottom: 2px solid #000;
+  /* border-bottom: 2px solid #000; */
 }
 .container section p {
   line-height: 1.5;
@@ -32,7 +32,7 @@
 }
 .details {
   line-height: 1.5;
-  border-top: 2px solid #000;
+  /* border-top: 2px solid #000; */
   padding: 20px 0;
 }
 .details ul {

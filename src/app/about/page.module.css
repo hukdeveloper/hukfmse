@@ -6,3 +6,37 @@
   height: 100%;
   gap: 10px;
 }
+.container section {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.instructor {
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 10px;
+  gap: 5px;
+}
+.instructor a {
+  text-decoration: underline;
+  color: rgb(75, 90, 225);
+}
+.members {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.members div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.5;
+}

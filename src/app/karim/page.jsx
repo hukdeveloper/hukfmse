@@ -6,38 +6,10 @@ export default function Project() {
     <div className={styles.container}>
       <h2>Task : OHT-II</h2>
       <div className={styles.student}>
-        <span>2019-KIU-BS1001</span>
-        <span>Haris Umar</span>
-        <span>Software Engineering</span>
+        <span>2019-KIU-BS2079</span>
+        <span>Karim Madad</span>
       </div>
-      <section>
-        <h4>Topic; -</h4>
-        <br />
-        <span>Dear Students,</span>
-        <p>
-          Hope all of you are doing well. I believe on you that you have learned
-          a lot during this course. Now this is time to check the learning
-          outcomes of the course “Formal Methods in Software Engineering”.
-          Please write a brief summary of learning outcomes. In your summary,
-          encompass the overarching objective of the Formal Methods in Software
-          Engineering course, while highlighting the specific outcomes that you
-          have achieved upon successful completion. This summary should convey
-          the course's aim to instill formal methods proficiency,
-          problem-solving skills, verification capabilities, effective
-          communication, risk mitigation, practical application, and a mindset
-          of continuous improvement. Emphasize the holistic benefits, including
-          critical thinking enhancement and preparation for further academic
-          pursuits.
-          <br /> Note! Post your task on your publicly available source and
-          provide a link on your LMS forum. <br />
-          <br />
-          Wish you the best of luck
-          <br />
-          <b>Asif Hussain </b>
-          <br />
-          <span>asifburkhia@gmail.com</span>
-        </p>
-      </section>
+
       <div className={styles.details}>
         <p>
           The overarching objective of the Formal Methods in Software
